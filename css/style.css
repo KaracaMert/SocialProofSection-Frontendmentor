@@ -3,7 +3,12 @@
   font-size: 15px;
 }
 
-body {;
+body {
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left top , right bottom;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,12 +17,6 @@ body {;
 }
 
 .main-container {
-  background-image: url("../images/bg-pattern-top-desktop.svg"),
-    url("../images/bg-pattern-bottom-desktop.svg");
-  background-repeat: no-repeat;
-  background-position: left top , right bottom;
-  background-color: white;
-
   margin: auto;
   width: 1440px;
   padding: 130px 150px;
