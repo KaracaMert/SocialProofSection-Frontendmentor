@@ -14,12 +14,11 @@ body {
   align-items: center;
   margin: auto;
   min-height: 100vh;
+  width: 1440;
 }
 
 .main-container {
   margin: auto;
-  width: 1440px;
-  padding: 130px 150px;
 }
 
 .info-container {
