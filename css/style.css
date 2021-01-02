@@ -1,0 +1,138 @@
+* {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+body {;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.main-container {
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left top , right bottom;
+  background-color: white;
+
+  margin: auto;
+  width: 1440px;
+  padding: 130px 150px;
+}
+
+.info-container {
+  display: inline-block;
+  width: 460px;
+}
+
+.info-container > h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0;
+}
+
+.info-container > p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+.rates-container {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  margin: 0 0 70px 0;
+  padding-left: 300px;
+}
+
+.rates {
+  background-color: hsl(300, 24%, 96%);
+  margin: 20px 0;
+  padding: 20px 10px 20px 50px;
+  border-radius: 10px;
+  width: 520px;
+}
+
+.checked {
+  color: #f2b01e;
+  scale: 1.4;
+  margin: 0 8px;
+}
+
+.rates > p {
+  display: inline-block;
+  margin: 0 0 0 60px;
+  padding-right: 20px;
+}
+
+.reviews {
+}
+
+.reportguru {
+  margin-left: 50px;
+}
+
+.besttech {
+  margin-left: 100px;
+}
+
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+}
+
+.reviewcard {
+  background-color: hsl(300, 43%, 22%);
+  width: 340px;
+  height: 200px;
+  margin-top: 70px;
+  white-space: normal;
+  display: inline-block;
+  padding: 50px 50px;
+  border-radius: 10px;
+  color: white;
+  line-height: 2;
+}
+
+.names {
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.names > p {
+    margin: 20px;
+}
+
+.names > h2 {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  color: white;
+}
+
+.names > h3 {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  color: hsl(300, 24%, 50%);
+}
+
+.names > img {
+  float: left;
+  border-radius: 50%;
+  height: 60px;
+  margin: 0;
+}
+
+.irene {
+  margin-top: 90px;
+}
+
+.anne {
+  margin-top: 110px;
+}
